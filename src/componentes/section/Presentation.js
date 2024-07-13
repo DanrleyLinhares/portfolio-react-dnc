@@ -5,7 +5,7 @@ import {useEffect, useState} from 'react'
 
 function Presentation () {
     const [text, setText] = useState('');
-    const toRotate = ['Danrley Linhares', 'Desenvolvedor Full-Stack!'];
+    const toRotate = ['Danrley Linhares ', 'Desenvolvedor Full-Stack! '];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const period = 100;
@@ -41,11 +41,11 @@ function Presentation () {
         <div className = {styles.presentation} id='Presentation'>
             <h4><strong>Bem-vindo ao meu Portfólio</strong></h4>
             <h1>Olá, eu sou {text}</h1>
-            <p>Sou um apaixonado por tecnologia e soluções inovadoras.<br/>
-                Como Product Manager, eu tenho o compromisso de resolver problemas<br/>
-                complexos e trazer resultados excepcionais para os negócios.<br/>
-                Meus projetos já geraram milhões de reais em receita anual <br/>
-                estou sempre em busca de novos desafios para superar.
+            <p>Sou apaixonado por tecnologia e inovação.<br/>
+                Como Desenvolvedor Full Stack, transformo ideias em soluções reais.<br/>
+                Meus projetos geram milhões em receita, focando em desempenho e usabilidade.<br/>
+                Estou sempre em busca de novos desafios e tecnologias.<br/>
+                Pronto para fazer a diferença.<br/>
             </p>
             <ButtonA link='https://github.com/DanrleyLinhares' text='Conecte-se comigo!'/>
         </div>
