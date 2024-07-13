@@ -16,7 +16,7 @@ function Card({img, title, tech, description, repo, site}) {
 
     return (
         <div onMouseLeave={InfoOff} className = {styles.card}>
-            <a onMouseEnter = {infoOn} href={site}>
+            <a onMouseEnter = {infoOn} href={site} target="_blank" rel="noopener noreferrer">
             <img src={img} alt='ERROR'/>
             </a>
 

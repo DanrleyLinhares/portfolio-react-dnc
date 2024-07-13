@@ -11,9 +11,9 @@ function Navbar() {
                 <li><Nav.Link href = '#Projects'>Projetos</Nav.Link></li>
             </ul>
             <ul>
-                <li><a href='https://www.instagram.com/danrleylinhares/'><FaInstagram size={30}/></a></li>
-                <li><a href='https://github.com/DanrleyLinhares/'><FaGithub size={30}/></a></li>
-                <li><a href='https://www.linkedin.com/in/danrleylinhares/'><FaLinkedin size={30}/></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/danrleylinhares/'><FaInstagram size={30}/></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href='https://github.com/DanrleyLinhares/'><FaGithub size={30}/></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/danrleylinhares/'><FaLinkedin size={30}/></a></li>
             </ul>
         </div>
     )
